@@ -1,10 +1,6 @@
 <?php
-// public/page.php
 
 require_once __DIR__ . '/../app/models/WebsiteProfile.php';
-// Tidak perlu require Database.php langsung di sini, karena sudah di-require oleh WebsiteProfile.php
-// require_once __DIR__ . '/../app/core/Database.php';
-
 
 $profileModel = new WebsiteProfile();
 $profileData = null; 
